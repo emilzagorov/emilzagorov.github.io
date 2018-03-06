@@ -1,0 +1,51 @@
+.states-bg {
+  transition: $hover-transition;
+  &:hover {
+    background-color: rgba($grey-1, .25);
+  }
+  &:active {
+    background-color: rgba($grey-1, .5);
+  }
+}
+
+.states-opacity {
+  transition: $hover-transition;
+  &:hover {
+    opacity: .8;
+    transform: translateZ(0);
+  }
+  &:active {
+    opacity: .7;
+    transform: translateZ(0);
+  }
+}
+
+.states-shadow {
+  transition: $hover-transition;
+  &:hover {
+    box-shadow: $card-shadow-hover;
+  }
+  &:active {
+    box-shadow: $card-shadow;
+  }
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.states-green:hover {
+  color: $green;
+}
+
+// a11y styles
+:focus {
+  outline: 0!important;
+}
+
+.a11y {
+  *:focus {
+    box-shadow: 0 0 0 3px $highlight-green;
+    opacity: .8;
+  }
+}

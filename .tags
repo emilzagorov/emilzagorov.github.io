@@ -1,0 +1,5 @@
+primary-color	/Applications/MAMP/htdocs/propertyexpert/assets/sass/style.scss	/^$primary-color: #343434;$/;"	function	line:1
+p	/Applications/MAMP/htdocs/propertyexpert/assets/sass/style.scss	/^p {$/;"	function	line:3
+will	/Applications/MAMP/htdocs/propertyexpert/application/config/config.php	/^| the output class will test whether your server supports Gzip.$/;"	class	line:464
+exports	/Applications/MAMP/htdocs/propertyexpert/Gruntfile.js	/^module.exports = function(grunt) {$/;"	function	line:1
+module.exports	/Applications/MAMP/htdocs/propertyexpert/Gruntfile.js	/^module.exports = function(grunt) {$/;"	function	line:0
